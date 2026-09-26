@@ -1,0 +1,6 @@
+{
+  "name": "vcv-play-build",
+  "scripts": {
+    "build": "mkdir dist && cp index.html manifest.json sw.js dist/ && cp -r files dist/"
+  }
+}
