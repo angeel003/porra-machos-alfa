@@ -2,6 +2,12 @@
   "name": "vcv-play-2627",
   "compatibility_date": "2024-09-25",
   "assets": {
-    "directory": "./dist"
+    "directory": ".",
+    "exclude": [
+      "node_modules",
+      "obsoleto",
+      ".scripts_temporales_ia",
+      "package.json"
+    ]
   }
 }
